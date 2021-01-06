@@ -1,0 +1,226 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.custom-button a {
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(-28.33%, #28BBE4), color-stop(95.83%, #4176FA));
+  background: linear-gradient(0deg, #28BBE4 -28.33%, #4176FA 95.83%);
+  color: #fff;
+  display: inline;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  padding: 20px 55px;
+  border-radius: 6px;
+  -webkit-box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+}
+
+.custom-button a img {
+  max-width: 100%;
+  height: auto;
+  position: relative;
+  top: 7px;
+}
+
+.nav-wrapper {
+  text-align: right;
+  padding: 35px 140px 0;
+}
+
+.nav-wrapper li {
+  display: inline;
+  margin: 0 0 0 40px;
+}
+
+.nav-wrapper li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Roboto", sans-serif;
+  color: #3c3c3c;
+}
+
+.main-header-wrapper .header-content-left {
+  float: left;
+  width: 33%;
+  padding: 0 135px;
+}
+
+.main-header-wrapper .header-content-left h1 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-weight: 700;
+  font-size: 80px;
+  padding: 175px 0px 0 0;
+}
+
+.main-header-wrapper .header-content-left h1 span {
+  color: #28BBE4;
+}
+
+.main-header-wrapper .header-content-left p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #3e3e3e;
+  padding: 20px 0 55px 0;
+}
+
+.main-header-wrapper .header-content-right img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-wrapper {
+  padding: 30px 0 250px;
+}
+
+.about-wrapper .about-content-left {
+  width: 40%;
+  float: left;
+  padding: 0 135px;
+}
+
+.about-wrapper .about-content-left img {
+  max-width: 100%;
+  height: auto;
+}
+
+.about-wrapper .about-content-right {
+  margin-left: 3%;
+}
+
+.about-wrapper .about-content-right h2 {
+  font-family: "Bebas Neue", cursive;
+  color: #363958;
+  font-weight: 400;
+  font-size: 48px;
+  padding: 200px 0px 5px 0;
+}
+
+.about-wrapper .about-content-right p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #3e3e3e;
+  padding: 20px 200px 55px 0;
+}
+
+.working-project-wrapper {
+  padding: 50px 0;
+  background: rgba(40, 187, 228, 0.19);
+}
+
+.working-project-wrapper h2 {
+  color: #363958;
+  font-family: "Bebas Neue", cursive;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+  padding: 45px 0 55px;
+}
+
+.working-project-wrapper h2 span {
+  color: #28BBE4;
+}
+
+.working-project-wrapper .container {
+  height: 400px;
+  padding: 10px 0 10px 135px;
+}
+
+.working-project-wrapper .container .project-width {
+  background-color: #fff;
+  width: 25%;
+  float: left;
+  margin: 0 37px 0 0;
+  padding: 18px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+}
+
+.working-project-wrapper .container .project-width img {
+  max-width: 100%;
+  height: auto;
+}
+
+.working-project-wrapper .container .project-width h4 {
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+  padding: 15px 0;
+}
+
+.working-project-wrapper .container .project-width p {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #6C6C6C;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.inquiry-wrapper {
+  padding: 150px 0 25px;
+  background-image: url(../images/works-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 40% -25%;
+  height: 180px;
+  text-align: center;
+}
+
+.inquiry-wrapper .inquiry-content h1 {
+  font-size: 64px;
+  font-family: "Bebas Neue", cursive;
+  color: #fff;
+  position: relative;
+  top: 15px;
+}
+
+.inquiry-wrapper .inquiry-content h1 span {
+  color: #363958;
+}
+
+.inquiry-wrapper .inquiry-content .wc {
+  display: inline;
+  margin: 0 150px;
+}
+
+.footer-wrapper {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.footer-wrapper p {
+  font-size: 24px;
+  font-family: "Bebas Neue", cursive;
+  color: #696871;
+  padding: 15px 0;
+}
+
+.footer-wrapper h4 {
+  font-size: 36px;
+  font-family: "Roboto", sans-serif;
+  color: #363958;
+  padding: 0px 0 25px;
+}
+
+.footer-wrapper li {
+  display: inline;
+  margin: 0 10px;
+  padding: 0 0 25px;
+}
+/*# sourceMappingURL=style.css.map */
