@@ -1,4 +1,4 @@
-# personal-website
+# Personal_Portpolio
 This a complete responsive portfolio website using html css and javascript, for the backend purpose I used PHP.
 
 
