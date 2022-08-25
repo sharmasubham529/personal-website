@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <title>This is my Website</title>
+</head>
+<body>
+	  <h1>Registartion Form</h1>
+      <div id="reg-form">
+      	<form>
+      		<label for="first-name">First Name</label>
+            <input type="text" name="first-name" placeholder="Subham" required>
+             
+            <!--here we have to write the same thing that is written in for and the name-->
+            <label for="last-name">Last Name</label>
+            <input type="text" name="last-name" placeholder="Sharma" required>
+        </div>
+        <div>
+        	<!--here if the for and the name will same then it will not choice a single element-->
+        	<label for="gender-male">Male</label>
+        	<input type="radio" name="gender-choice" value="choice-1">
+
+        	<label for="gender-female">Female</label>
+        	<input type="radio" name="gender-choice" value="choice-2">
+        </div>
+        <div>
+        	<label for="email">Email</label>
+        	<input type="email" placeholder="xyz@gmail.com">
+
+        	<label for="password">Password</label>
+        	<input type="password" name="password">
+        </div>  
+        <div>
+            <label for="Month">Birthday</label>
+            <select name="Month">
+            	<option value="0" selected disabled>month</option>
+            	<option value="Jan">January</option>
+            	<option value="Feb">February</option>
+            	<option value="March">March</option>
+            	<option value="April">April</option>
+            	<option value="May">May</option>
+            	<option value="June">June</option>
+            	<option value="July">July</option>
+            	<option value="Aug">August</option>
+            	<option value="Sept">September</option>
+            	<option value="Oct">October</option>
+            	<option value="Novem">November</option>
+            	<option value="Decem">December</option>
+            </select>  
+            </div>
+            <label for="agree">I agree to all the condtitons of the form:</label>
+            <input type="checkbox" name="agree">
+
+            <botton type="submit">submit</botton>
+         </form>
+     </div>
+</body>
+</html>
